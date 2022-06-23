@@ -45,7 +45,8 @@ h2 {
 input  {
   background: var(--white);
   font-size: 1.25rem;
-  height: 1.25rem;
+  height: 1.5rem;
+  width: 3rem;
 }
 
 button {
@@ -53,6 +54,27 @@ button {
   font-size: 1.25rem; 
   padding: 0rem 1rem;
 }
+.cards { 
+  display: flex;
+  flex-wrap: wrap;
+}
+.none { display: none; }
+img {
+  width: 8rem;
+  height: 12rem;
+  padding: 1rem;
+  
+}
+#front {
+  width: 8rem;
+  height: 12rem;
+}
+#none {
+  display: none;
+}
+
+
+
   
 
 

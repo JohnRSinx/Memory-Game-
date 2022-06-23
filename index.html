@@ -17,33 +17,37 @@
     <div class="container">
       <p>Escolha o numero de Cartas</p>
       <div>
-        <h2>4</h2>
-        <input 
+        <input
+        id="selector"
         list="tickmarks"
-        type="range"
+        type="number"
         min="4"
-        max="16" 
+        max="8" 
         step="2" 
-        value="4">
-        <datalist id="tickmarks">
-          <option value="4"></option>
-          <option value="6"></option>
-          <option value="8"></option>
-          <option value="10"></option>
-          <option value="12"></option>
-          <option value="14"></option>
-          <option value="16"></option>
-          
-        </datalist>
+        value="4"
+       >
       </div>
-      <button type="submit">
+      <button 
+      id="play"
+      type="submit" 
+      onclick=play()
+      >
         Play
       </button>
     </div>
+    <div class="cards">
+      <div class="box">
+        
+      </div>
+    </div>
+    
   </header>
   <script src="script.js"></script>
 </body>
 </html>
+
+        
+    
      
     
       
